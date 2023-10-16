@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio 2023</title>
+</head>
+<body>
+    <section id="portfolioWrap">
+      <div id="main1">
+        <div class="logo">
+            <img src="./img/portfolio.png" alt="logo" class="logoImg">
+        </div>
+        <div class="skills">
+            <ul>
+                <li><p><strong>Name :</strong>Soye Park</p></li>
+                <li><p><strong>Birth :</strong>1994.12.07</p></li>
+                <li><input type="text" class="clickSkill" placeholder="I have skills..."><button id="gotoSkill"><a href="#randomBox">Click</a></button></li>
+            </ul>
+        </div>
+      </div>
+      <div id="randomBox">
+        <div class="randomWrap">
+            <div class="webSiteBox randomBall"><a href="" class="skillName">React</a></div>
+            <div class="reactBox randomBall"><a href="" id="randomTxt" class="skillName">Website</a></div>
+            <div class="javascriptBox randomBall"><a href="" class="skillName">javascript</a></div>
+        </div>
+        <button class="randomBtn">Switch On</button>
+    </div>
+     <div id="sliderWrap">
+         <div class="sliderBack">
+        <div class="slideCont" id="Web">
+            <ul class="slider">
+                <li><a href="https://soyeya.github.io/binggrae_web/" target="_blank"><img src="./img/web_img1.png" alt="web1"><span>빙그레 Web</span></a></li>
+                <li><a href="https://soyeya.github.io/Disney-website/" target="_blank"><img src="./img/web_img3.png" alt="web2"><span>디즈니 Web</span></a></li>
+                <li><a href="https://soyeya.github.io/popupStore_Web/" target="_blank"><img src="./img/web_img2.png" alt="web3"><span>팝업스토어 Web</span></a></li>
+            </ul>
+            <div id="arrowBox">
+                <img src="./img/prev_arrow.svg" alt="prev" class="arrowImg prevBtn">
+                <img src="./img/next_arrow.svg" alt="next" class="arrowImg nextBtn">
+            </div>
+        </div>
+        <div class="slideCont" id="Rea">
+            <ul class="slider">
+                <li><a href="https://soyeya.github.io/React_tada/" target="_blank"><img src="./img/rea_img2.png" alt="react1"><span>타다 React</span></a></li>
+                <li><a href="https://soyeya.github.io/React_lush_/" target="_blank"><img src="./img/rea_img1.png" alt="react2"><span>러쉬 React</span></a></li>
+                <li><a href="https://soyeya.github.io/React_koreanair/" target="_blank"><img src="./img/rea_img3.png" alt="react3"><span>대한항공 React</span></a></li>
+            </ul>
+            <div id="arrowBox">
+                <img src="./img/prev_arrow.svg" alt="prev" class="arrowImg prevBtn">
+                <img src="./img/next_arrow.svg" alt="next" class="arrowImg nextBtn">
+            </div>
+        </div>
+        <div class="slideCont" id="JS">
+            <ul class="slider">
+                <li><a href="https://soyeya.github.io/Javascript-Calendar_todoList/" target="_blank"><img src="./img/js_img1.png" alt="js1"><span>Calendar TodoList JS</span></a></li>
+                <li><a href="https://soyeya.github.io/Javascript-Game-catch_ducks-/" target="_blank"><img src="./img/js_img2.png" alt="js2"><span>Catch Duck Game JS</span></a></li>
+                <li><a href="https://soyeya.github.io/Javascript-Calendar_todoList/" target="_blank"><img src="./img/js_img1.png" alt="js3"><span>Calendar TodoList JS</span></a></li>
+            </ul>
+            <div id="arrowBox">
+                <img src="./img/prev_arrow.svg" alt="prev" class="arrowImg prevBtn">
+                <img src="./img/next_arrow.svg" alt="next" class="arrowImg nextBtn">
+            </div>
+        </div>
+       </div>
+     </div>
+    </section>
+    <div id="lock_page">
+        <div class="lock">
+            <h3>Push The Today's Dates</h3>
+            <div class="pushNum"></div>
+            <ul class="lockNum">
+                <li><p id="1">1</p><p id="2">2</p><p id="3">3</p></li>
+                <li><p id="4">4</p><p id="5">5</p><p id="6">6</p></li>
+                <li><p id="7">7</p><p id="8">8</p><p id="9">9</p></li>
+                <li><p>*</p><p id="0">0</p><p>#</p></li>
+                <li><button class="delete">Delete</button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
